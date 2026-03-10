@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF Jobpack Translate"
+  short_description: "Batch jobpack PDF translation for agents."
+  default_prompt: "Use $pdf-jobpack-agent-translate to bootstrap a skill-local .venv first, then export jobs, let the agent translate all batches itself, validate placeholders, and apply results back into PDF."
